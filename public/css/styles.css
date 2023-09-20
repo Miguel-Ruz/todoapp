@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    margin-top: 64px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
